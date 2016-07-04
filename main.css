@@ -2,36 +2,127 @@
 /* GENERAL
 /*-----------------------------------------------------------------------------------*/
 
-body, ._5vb_, ._5vb_ #contentCol {
-  background: #f9f9f9!important;
+body,
+._5vb_,
+._5vb_ #contentCol {
+	background: #f9f9f9 !important;
+}
+
+/* widgets */
+._4-u2 {
+	border-color: #ebebeb !important;
+	border-radius: 0px !important;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04), 4px 4px 6px rgba(0, 0, 0, 0.04);
 }
 
 /*-----------------------------------------------------------------------------------*/
 /* NAVBAR
 /*-----------------------------------------------------------------------------------*/
 
-/*home button*/
+/* body top padding */
+._2xk0._5vb_ #globalContainer {
+	padding-top: 18px !important;
+}
+
+/* navbar height */
+._2t-8,
+._2s1y,
+._2t-a {
+	height: 50px !important;
+}
+
+/* navbar shadow */
+#pagelet_bluebar {
+	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* navbar color */
+._2s1x ._2s1y {
+	background-color: #3c5b96 !important;
+	border-bottom: 0px !important;
+}
+
+/* fb logo */
+._19ea {
+	margin-top: 11px !important;
+}
+
+/* fb logo round */
+._2md {
+	border-radius: 4px;
+}
+
+/* search container */
+._585- {
+	background-color: #3c5b96 !important;
+	border-color: #3c5b96 !important;
+	padding-left: 24px !important;
+	margin-left: 14px !important;
+	top: 12px !important;
+}
+
+/* search container */
+._585_ {
+	background-position: -19px -124px !important;
+}
+
+/* search input */
+._585- ._4w98 {
+	left: 0 !important;
+	right: auto !important;
+	background-color: #3c5b96 !important;
+	padding: 0 4px !important;
+}
+
+/* search placeholder */
+._586j {
+	color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* search text */
+._586p ._586i {
+	color: #fff !important;
+}
+
+/* profile pos */
+._4kny ._4962 {
+	margin: 9px 0 11px 0 !important;
+}
+
+/* profile pic */
+._1k69 {
+	border-radius: 50% !important;
+}
+
+/* profile text */
+._2s25 {
+	font-weight: normal !important;
+}
+
+/* profile splitter */
+._2s24::before {
+	display: none !important;
+}
+
+/* menus pos */
+._4q39,
+._4d1i,
+._5lxr {
+	margin: 11px 0 11px 0 !important;
+}
+
+/* menu icons */
+a.jewelButton ._2n_9,
+._4d1i ._59fb,
+._5lxt {
+	opacity: 0.3 !important;
+}
+
+/* home menu */
 ._4kny._2s24 {
-  display: none!important;
-}
-
-
-._4kny._50tm {
-  background-color: #3b5998!important;
-}
-
-/*-----------------------------------------------------------------------------------*/
-/* HOME PAGE
-/*-----------------------------------------------------------------------------------*/
-
-/*widgets*/
-._4-u2 {
-  border-color: #ebebeb!important;
-  border-radius: 0px!important;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.04), 4px 4px 6px rgba(0,0,0,0.04);
+	display: none !important;
 }
 
 /*-----------------------------------------------------------------------------------*/
 /* SIDEBAR
 /*-----------------------------------------------------------------------------------*/
-
