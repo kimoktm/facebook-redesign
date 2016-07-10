@@ -63,7 +63,7 @@ body,
 
 /* search container */
 ._585_ {
-	background-position: -19px -124px !important;
+	background-position: -19px -60px !important;
 }
 
 /* search input */
@@ -74,15 +74,28 @@ body,
 	padding: 0 4px !important;
 }
 
-/* search placeholder */
-._586j {
-	color: rgba(255, 255, 255, 0.7) !important;
-}
-
 /* search text */
 ._586p ._586i {
 	color: #fff !important;
 }
+
+/* search placeholder */
+._1frb::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.7) !important;
+}
+
+._1frb:-moz-placeholder { /* Firefox 18- */
+   color: rgba(255, 255, 255, 0.7) !important;
+}
+
+._1frb::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(255, 255, 255, 0.7) !important;
+}
+
+._1frb:-ms-input-placeholder {  
+   color: rgba(255, 255, 255, 0.7) !important;
+}
+
 
 /* profile pos */
 ._4kny ._4962 {
